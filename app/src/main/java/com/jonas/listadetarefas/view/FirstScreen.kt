@@ -20,6 +20,7 @@ import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.google.firebase.Firebase
 import com.jonas.listadetarefas.R
 import com.jonas.listadetarefas.itemList.TodoItem
 import com.jonas.listadetarefas.model.Model
@@ -32,6 +33,9 @@ import com.jonas.listadetarefas.ui.theme.WHITE
 @Composable
 
 fun FirstSceen(navController: NavController){
+
+
+
     //layout
     Scaffold(
         topBar = {
